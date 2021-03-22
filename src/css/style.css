@@ -115,12 +115,16 @@ input {
   top: 58px;
   left: 0;
 }
-
 .leftside:hover {
   overflow-y: scroll;
 }
 
+.leftside::-webkit-scrollbar:hover {
+  opacity: 1;
+}
+
 .leftside::-webkit-scrollbar {
+  opacity: 0;
   width: 8px;
 }
 
