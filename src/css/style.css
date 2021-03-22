@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #181818 !important;
+  font-family: Helvetica, sans-serif !important;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #4d4d4d;
+}
+
+/* NAV */
+nav {
+  background-color: #212121;
+  height: 58px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.align-items-center {
+  padding-top: 8px;
+}
+
+i {
+  cursor: pointer;
+}
+
+.barsicon {
+  color: white;
+  font-size: 20px;
+}
+
+.logo {
+  width: 100px;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+input {
+  width: 550px;
+  height: 32px;
+  background-color: #1c1c1c;
+  border: #313131 solid 1px;
+
+  font-size: 18px;
+  border-radius: 3px;
+  padding-left: 12px;
+  color: #989898;
+}
+
+.search {
+  font-size: 14px;
+  color: #989898;
+  background-color: #313131;
+  border: #313131 solid 1px;
+  height: 31px;
+  width: 65px;
+}
+
+.mic {
+  color: white;
+  font-size: 18px;
+  padding-left: 15px;
+}
+
+.square,
+.settings {
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  height: 30px;
+  width: 50px;
+  padding: 0px 30px;
+}
+
+.account {
+  padding: 6px 12px;
+  color: rgb(75, 142, 243);
+  background-color: #212121;
+  border-radius: 2px;
+  border: 1px rgb(75, 142, 243) solid;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.account i {
+  font-size: 22px;
+  padding-right: 8px;
+}
+/* /NAV */
+
+/* LEFTSIDE */
+.leftside {
+  display: flex;
+  flex-direction: column;
+  width: 245px;
+  height: 100%;
+  background-color: #212121;
+  padding: 10px 3px 70px 0px;
+  overflow: hidden;
+  position: fixed;
+  z-index: 21;
+  top: 58px;
+  left: 0;
+}
+
+.leftside:hover {
+  overflow-y: scroll;
+}
+
+.leftside::-webkit-scrollbar {
+  width: 8px;
+}
+
+.leftside::-webkit-scrollbar-track {
+  background-color: #212121;
+}
+
+.leftside::-webkit-scrollbar-thumb {
+  background-color: #4d4d4d;
+}
+
+.leftside::-webkit-scrollbar-thumb:hover {
+  background: red;
+}
+
+.leftside: .container {
+  height: 40px;
+}
+
+.home {
+  background-color: #303030;
+}
+
+.leftside h1 {
+  color: #7c7c7c;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  padding-right: 30px;
+}
+.menu {
+  color: white;
+  font-size: 20px;
+  padding: 10px 0px 5px 0px;
+  cursor: pointer;
+}
+
+.menu h3 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.menu .first-icon {
+  color: white;
+}
+
+.menu i {
+  padding: 1px 27px;
+  color: #909090;
+}
+
+.circle i {
+  padding: 7px;
+  color: white;
+  font-size: 12px;
+  background-color: #313131;
+  border-radius: 50%;
+  margin: 1px 27px;
+}
+
+.leftside .home:hover {
+  background-color: #909090;
+}
+
+.menu:hover {
+  background-color: #303030;
+}
+
+hr {
+  background-color: #7c7c7c;
+}
+
+.leftside h5 {
+  color: white;
+  font-size: 15px;
+  padding-bottom: 4px;
+}
+
+.leftside .effettua-accesso {
+  padding: 4px 30px 3px 16px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 4px 20px 3px 22px;
+}
+
+.footer li a {
+  color: #989898;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer li {
+  display: inline;
+}
+
+.footer p {
+  color: #4d4d4d;
+  font-size: 14px;
+}
+/* /LEFTSIDE */
+
+/*RIGHTSIDE */
+
+.rightside {
+  margin: 90px 10px 0px 285px;
+}
+
+.video {
+  height: 200px;
+  width: 355px;
+  background-image: url(../img/calcio.jpg);
+}
+
+.video:hover {
+  transition-duration: 3s;
+  background-image: url(../img//ggjGkm8.gif.crdownload);
+  cursor: pointer;
+}
+
+.avatar {
+  height: 47px;
+}
+
+.avatar-title {
+  padding-top: 12px;
+}
+
+.title-video {
+  padding-bottom: 30px;
+}
+
+.rightside h2,
+p {
+  padding-left: 20px;
+}
+
+.rightside h2 {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  width: 300px;
+}
+
+.dots {
+  color: white;
+  font-size: 17px;
+  padding-top: 5px;
+}
+.rightside p {
+  color: #7c7c7c;
+  margin: 0;
+  font-size: 15px;
+}
+
+.rightside h1 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  font-size: 22px;
+}
+
+.third-group {
+  padding-top: 10px;
+}
+
+.arrow:hover {
+  background-color: #6b6b6b;
+  padding: 10px;
+}
+/*/RIGHTSIDE */
